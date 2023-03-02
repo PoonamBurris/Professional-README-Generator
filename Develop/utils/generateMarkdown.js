@@ -1,10 +1,24 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-//function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  const badges ={
+    MIT: '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)',
+    Apache: '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)',
+    IBM: '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)',
+  }
+  return badges[license]
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-//function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  const link={
+    MIT:'https://opensource.org/license/mit/',
+    Apache: 'https://opensource.org/license/apache-2-0/',
+    IBM: 'https://opensource.org/license/ibmpl-php/',
+  }
+  return link[license]
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -12,8 +26,10 @@
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return 
-  `# ${data.title}
+  //const badge =renderLicenseBadge(data.license)
+  return `# ${data.title}
+
+  ${renderLicenseBadge(data.license)}
 
   ## Description
   ${data.description}
@@ -44,8 +60,8 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Questions
-  ${data.email};
-  ${data.github};
+  ${data.email}
+  ${data.github}
   
 `;
 }
