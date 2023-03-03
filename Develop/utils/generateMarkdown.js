@@ -52,7 +52,6 @@ function generateMarkdown(data) {
   - [Tests](#Tests)
   - [Questions](#Questions)
   
-  
   ## Installation
    ${data.installation}
   
@@ -71,9 +70,9 @@ function generateMarkdown(data) {
   ${data.tests}
   
   ## Questions
-  ${data.email}
-  <br>
-  ${data.github}
+  Reach me @ ${data.email} for any further questions regarding this application
+    <br>
+  [GitHub]${data.github}
   
 `;
 }

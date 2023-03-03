@@ -28,6 +28,13 @@ const questions = [
         type: 'input',
         name: 'license',
         message: 'Select from type of license',
+        choices:[
+            'MIT',
+            'Apache',
+            'IBM',
+            'None'
+        ]
+        
       },
     {
         type: 'input',
