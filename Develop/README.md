@@ -1,9 +1,9 @@
-# dfgdf
+# README generator
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  dfgdfg
+  This application generates a README file for your project
   
   ## Table of Content
   - [Project Description](#Description)
@@ -16,10 +16,10 @@
   
   
   ## Installation
-   dfgdfg
+   npm i inquirer@8.2.4
   
   ## Usage
-  dsfgfdg
+  This project will help create README in markdown language
   
   ## License
    [MIT](https://opensource.org/license/mit/)
@@ -30,10 +30,10 @@
   undefined
   
   ## Tests
-  fdghfgh
+  n/a
   
   ## Questions
-  dfghfgh
-  <br>
-  fghfgh
+  Reach me @ poonam.burris@gmail.com for any further questions regarding this application
+    <br>
+  [GitHub]github.com/PoonamBurris/
   
