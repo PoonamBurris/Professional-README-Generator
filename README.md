@@ -37,9 +37,7 @@
   ## Questions
   Reach me @ poonam.burris@gmail.com for any further questions regarding this application
   <br>
-  [GitHub](https://github.com/PoonamBurris)
+  [GitHub]https://github.com/PoonamBurris
 
   ## Video
 [Untitled_ Mar 2, 2023 9_25 PM.webm](https://user-images.githubusercontent.com/119805763/222618074-f4940c07-dbcc-49ea-86a5-8f4c1f1047d8.webm)
-
-  
