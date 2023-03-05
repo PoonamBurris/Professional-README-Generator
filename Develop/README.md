@@ -14,7 +14,6 @@
   - [Tests](#Tests)
   - [Questions](#Questions)
   
-  
   ## Installation
    npm i inquirer@8.2.4
   
